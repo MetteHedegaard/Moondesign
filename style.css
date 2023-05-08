@@ -92,9 +92,12 @@ height: 25px;
 }
 
 .footer {
-    background-color: #EFEFEF;
+    background-color: #EFEFEF; 
 }
+
 .footer p, h3{
     color: #151515;
+    margin: 5px;
+  
 }
 
