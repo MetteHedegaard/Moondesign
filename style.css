@@ -12,6 +12,7 @@
     text-align: left;
 }
 
+/* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp credit for burgermenu*/
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -62,16 +63,38 @@
 
  /*coverbillede*/
  .coverbillede img {
-     width: 100%;
+    width: 100%;
  }
 
  /*  section 2 med collection*/
- .flex-container {
-    display: flex;
-    flex-wrap: wrap;
- }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
 
-.flex-container div img{
-    width: 50%;
+.grid img {
+    width: 100%;
+}
+
+.grid p {
+height: 25px;
+      margin-top: 5px;
+    color: #FDFDFD;
+    display: block; 
+    background-color: #151515;
+    text-align: center;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    background-color: #EFEFEF;
+}
+.footer p, h3{
+    color: #151515;
 }
 
