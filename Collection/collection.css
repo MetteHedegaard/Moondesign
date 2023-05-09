@@ -49,3 +49,33 @@ height: 25px;
     background-color: #151515;
     text-align: center;
 }
+
+ /*  collection pages */
+
+ .numbers {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+ }
+
+.numbers button {
+    display: flex;
+    font-size: 3rem;
+    font-family: "bebas neue";
+    background: none;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+ /* SoMe icons  */
+.icons img {
+    width: 40px;
+}
+
+.icons {
+    text-align: right;
+    margin-top: -40px;
+}
