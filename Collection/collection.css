@@ -1,1 +1,41 @@
 @import url(../style.css);
+
+ /*  section collection1*/
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.grid1 img {
+    width: 100%;
+}
+
+.grid1 p {
+height: 25px;
+      margin-top: 5px;
+    color: #FDFDFD;
+    display: block; 
+    background-color: #151515;
+    text-align: center;
+}
+
+ /*  section2 collection2*/
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.grid2 img {
+    width: 100%;
+}
+
+.grid2 p {
+height: 25px;
+      margin-top: 5px;
+    color: #FDFDFD;
+    display: block; 
+    background-color: #151515;
+    text-align: center;
+}
