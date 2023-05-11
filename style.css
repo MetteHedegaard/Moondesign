@@ -1,6 +1,7 @@
 
 /* Font overskrifter bebas neue*/
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
 /* logo */
@@ -108,7 +109,8 @@ height: 25px;
   cursor: pointer;
   padding: 10px;
   width: 200px;
-  margin: 10px auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -121,7 +123,7 @@ height: 25px;
     background-color:#AAC3D3;
   }
 
-
+ /*footer*/
 .grid-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,9 +136,9 @@ height: 25px;
 .footer p, h3{
     color: #151515;
     margin: 5px;
-  
+    font-family: 'Roboto', sans-serif;
 }
-
+ /* icons r*/
 .icons img {
     width: 40px;
 }

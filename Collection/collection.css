@@ -1,7 +1,7 @@
-@import url(../style.css);
 
 /* Font overskrifter bebas neue*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
 h1 {
@@ -68,6 +68,23 @@ height: 25px;
 
 .hide {
     display: none;
+}
+
+ /*footer*/
+ .grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    background-color: #EFEFEF; 
+}
+
+.footer p, h3{
+    color: #151515;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+  
 }
 
  /* SoMe icons  */
