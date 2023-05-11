@@ -80,6 +80,7 @@
 .gridbokse div {
     padding: 0.5rem;
     background-color: #EFEFEF;
+   
 }
 
 .gridbokse img {
@@ -88,7 +89,9 @@
 
 .gridbokse p {
     text-align: center;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif; 
+}
+    
 
  
 
