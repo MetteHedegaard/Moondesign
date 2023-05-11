@@ -59,6 +59,38 @@
     font-size: 35px;
   }
 
+    
+  /* front billede*/
+.image img {
+    width: 100%;
+}
+
+.image h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+}
+
+  /*boksene*/
+  .gridbokse {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      margin-bottom: 20%;
+  }
+.gridbokse div {
+    padding: 0.5rem;
+    background-color: #EFEFEF;
+}
+
+.gridbokse img {
+    width: 100%;
+}
+
+.gridbokse p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; }
+
+ 
 
 
    /*footer*/
