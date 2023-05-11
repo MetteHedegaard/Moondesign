@@ -1,2 +1,97 @@
+/* Font overskrifter bebas neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* logo */
+.logo {
+    background-color: #FDFDFD;
+}
+.logo img {
+    max-width: 100px;
+    text-align: left;
+}
+
+/* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp credit for burgermenu*/
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #151515;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu - kun linksene frontpage (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    text-align: center;
+    font-family: "bebas neue";
+    /* containernen som er sort */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* boksene som linksene ligger indeni */
+  #myLinks a {
+      padding: 10px;
+      width: 80%;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 50px;
+      background-color: #6A8A9B;
+  }
+  
+  /* Style navigation menu links - alle klikbare links logo , frontpage etc*/
+  .topnav a {
+    color: #FDFDFD;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu - de 3 streger */
+  .topnav a.icon {
+   color: #151515;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 35px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+   /*footer*/
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    background-color: #EFEFEF; 
+}
+
+.footer p, h3{
+    color: #151515;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+   /* SoMe icons  */
+.icons img {
+    width: 40px;
+}
+
+.icons {
+    text-align: right;
+    margin-top: -40px;
+}
  
