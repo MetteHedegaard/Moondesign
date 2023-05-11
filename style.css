@@ -87,41 +87,46 @@ height: 25px;
     text-align: center;
 }
 
- /* knap credit
+  /* knap credit
  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade3 */
 
  .button-center {
-   display: flex;
-   justify-content: center;
-   
- }
+  display: flex;
+  justify-content: center;
+  
+}
 
- .button-center a{
-    text-decoration: none;
- }
-
- .button {
-     display: block;
-    border-radius: 50px;
-  color: #FDFDFD;
-  text-align: center;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  padding: 10px;
-  width: 200px;
-  margin-top: 15px;
-  margin-bottom: 50px;
+.button-center a{
+   text-decoration: none;
 }
 
 .button {
-    background-color: #6A8A9B; 
-    color: #FDFDFD; 
-    border: 2px solid #6A8A9B;
-  }
-  
-  .button:hover {
-    background-color:#AAC3D3;
-  }
+    display: block;
+   border-radius: 50px;
+ color: #FDFDFD;
+ text-align: center;
+ transition-duration: 0.4s;
+ cursor: pointer;
+ padding: 0.1px;
+ width: 200px;
+ margin-top: 15px;
+ margin-bottom: 50px;
+}
+
+.button {
+   background-color: #6A8A9B; 
+   color: #FDFDFD; 
+   border: 2px solid #6A8A9B;
+ }
+ 
+ .button:hover {
+   background-color:#AAC3D3;
+ }
+
+ .button p{
+     font-size: 1rem;
+     font-family: 'bebas Neue';
+ }
 
  /*footer*/
 .grid-footer {
