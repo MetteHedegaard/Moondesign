@@ -76,11 +76,13 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1rem;
       margin-bottom: 5%;
+      
+    
   }
 .gridbokse div {
     padding: 0.5rem;
     background-color: #EFEFEF;
-   
+    
 }
 
 .gridbokse img {

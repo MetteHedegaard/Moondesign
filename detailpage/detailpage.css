@@ -16,7 +16,7 @@
 .topnav {
     overflow: hidden;
     background-color: #151515;
-    position: relative;
+    position: absolute;
   }
   
   /* Hide the links inside the navigation menu - kun linksene frontpage (except for logo/home) */
@@ -155,17 +155,55 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.Sizes h2{
+.size h2{
     font-family: "Bebas Neue";
     font-size: 2rem;
     margin: 5%;
 }
 
-.Sizes p {
+.size p {
     margin: 5%;
     font-family: 'Roboto', sans-serif;
 }
 
+.size .btn {
+  background: transparent;
+  border: none;
+ margin-left: 5%;
+ font-size: 1.25rem;
+ margin-bottom: 10%;
+ font-weight: bolder;
+}
+
+input[type="radio"]{
+display: none;
+}
+
+input#sizeS:checked[type="radio"]:checked + label {
+color: blue;
+}
+
+input#sizeM:checked + label {
+ color: blue;
+}
+
+
+input#sizeL:checked + label {
+  color: blue;
+}
+
+
+input#sizeTailor:checked + label {
+color: blue;
+}
+
+label {
+display: inline-block;
+padding: 10px;
+color: black;
+cursor: pointer;
+margin: 2%;
+}
 
  /* knap credit
  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade3 */

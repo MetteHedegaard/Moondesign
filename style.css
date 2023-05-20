@@ -76,6 +76,12 @@
 
 .grid img {
     width: 100%;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+.grid img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 
 .grid p {
