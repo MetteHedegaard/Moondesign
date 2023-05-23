@@ -74,6 +74,23 @@
 .info-form h3 {
     font-size: 1rem;
     font-family: 'bebas Neue';
+    margin: auto;
+    display: block;
+    width: 90%;
+}
+
+.textbox {
+  display: block;
+  width: 90%;
+  height: 25px;
+  margin: auto;
+}
+
+.textboxcomments {
+  display: block;
+  width: 90%;
+  height: 100px;
+  margin: auto;
 }
 
 
