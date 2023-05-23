@@ -85,11 +85,8 @@
 }
 
 .grid p {
-height: 25px;
-      margin-top: 5px;
-    color: #FDFDFD;
+  color: #151515;
     display: block; 
-    background-color: #151515;
     text-align: center;
 }
 
