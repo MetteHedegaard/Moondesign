@@ -88,12 +88,14 @@ h1 {
 
 
 .grid1 p {
-height: 25px;
-      margin-top: 5px;
-    color: #FDFDFD;
+    color: #151515;
     display: block; 
-    background-color: #151515;
     text-align: center;
+}
+
+
+.grid1 a {
+    text-decoration: none;
 }
 
  /*  section2 collection2*/
@@ -114,11 +116,8 @@ height: 25px;
 }
 
 .grid2 p {
-height: 25px;
-      margin-top: 5px;
-    color: #FDFDFD;
+    color: #151515;
     display: block; 
-    background-color: #151515;
     text-align: center;
 }
 

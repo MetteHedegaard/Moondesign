@@ -180,21 +180,21 @@ display: none;
 }
 
 input#sizeS:checked[type="radio"]:checked + label {
-color: blue;
+color: #6A8A9B;
 }
 
 input#sizeM:checked + label {
- color: blue;
+ color: #6A8A9B;
 }
 
 
 input#sizeL:checked + label {
-  color: blue;
+  color: #6A8A9B;
 }
 
 
 input#sizeTailor:checked + label {
-color: blue;
+color: #6A8A9B;
 }
 
 label {
