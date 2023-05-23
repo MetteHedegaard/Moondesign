@@ -59,6 +59,11 @@
     font-size: 35px;
   }
 
+  h1 {
+    font-family: "Bebas Neue";
+    font-size: 3rem;  
+text-align: center;
+  }
 
  /* front billede*/
  .image1 img {
@@ -96,7 +101,7 @@ height: 60px;
 
 .gridfabric img {
   width: 100%;
-  height: 50%;
+  height: 100px;
 }
 
 .gridfabric p {

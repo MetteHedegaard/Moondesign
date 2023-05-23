@@ -134,15 +134,7 @@ credit https://www.w3schools.com/howto/howto_css_dropdown.asp
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 5%;
-}
-
-.gridtailor p {
-    height: 25px;
-      margin-top: 5px;
-    color: #FDFDFD;
-    display: block; 
-    background-color: #151515;
-    text-align: center;
+   
 }
 
  /*video*/

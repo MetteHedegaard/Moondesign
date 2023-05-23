@@ -72,6 +72,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    margin: 5%;
 }
 
 .grid img {
@@ -132,26 +133,33 @@
  }
 
  /*footer*/
-.grid-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+ .grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footer {
-    background-color: #EFEFEF; 
+  background-color: #EFEFEF; 
 }
 
-.footer p, h3{
-    color: #151515;
-    margin: 5px;
-    font-family: 'Roboto', sans-serif;
+.footer h3{
+  color: #151515;
+  margin: 5%;
+  font-family: 'Roboto', sans-serif;
 }
- /* icons r*/
+
+.footer p {
+font-family: 'Roboto', sans-serif;
+margin: 5%;
+}
+
+ /* SoMe icons  */
 .icons img {
-    width: 40px;
+  width: 40px;
 }
 
 .icons {
-    text-align: right;
-    margin-top: -40px;
+  text-align: right;
+  margin-top: -60px;
+  margin-right: 5%;
 }
