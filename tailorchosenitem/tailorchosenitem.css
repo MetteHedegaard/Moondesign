@@ -152,6 +152,12 @@ credit https://www.w3schools.com/howto/howto_css_dropdown.asp
     margin: 5%;
 }
 
+video {
+  display: block;
+  width:90%;
+  margin: 0 auto;
+}
+
 
 /*measurement*/
 .measurement h3 {
@@ -161,7 +167,9 @@ credit https://www.w3schools.com/howto/howto_css_dropdown.asp
 }
 
 .textbox {
-  width: 98%;
+  display: block;
+  width: 90%;
+  height: 25px;
   margin: auto;
 }
 
