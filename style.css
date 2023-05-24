@@ -3,6 +3,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+}
 
 /* logo */
 .logo {
@@ -135,6 +138,7 @@
  /*footer*/
  .grid-footer {
   display: grid;
+  align-items: end;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -144,13 +148,15 @@
 
 .footer h3{
   color: #151515;
-  margin: 5%;
+  padding: 20px 5% 0 5%;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 .footer p {
 font-family: 'Roboto', sans-serif;
-margin: 5%;
+padding: 5px 5%;
+margin: 0;
 }
 
  /* SoMe icons  */

@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+}
+
 /* logo */
 .logo {
     background-color: #FDFDFD;
@@ -16,7 +20,7 @@
 .topnav {
     overflow: hidden;
     background-color: #151515;
-    position: absolute;
+    position: relative;
   }
   
   /* Hide the links inside the navigation menu - kun linksene frontpage (except for logo/home) */
