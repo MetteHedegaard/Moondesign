@@ -67,7 +67,20 @@ body {
   .backbtn p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    text-align: right;
+    padding: 15px;
+    margin: 0%;
   }
+
+  .backbtn a {
+    text-decoration: none;
+    color: #151515;
+  }
+
+  .backbtn a:hover {
+    color: #6A8A9B;
+  }
+
 
   /*item picture*/
   .items img{
@@ -152,6 +165,7 @@ body {
     font-family: "Bebas Neue";
     text-align: center;
     font-size: 3rem;
+    margin: 0;
 }
 
 .item-underoverskrift1 h2{
