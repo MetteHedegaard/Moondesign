@@ -146,26 +146,34 @@ h1 {
  /*footer*/
  .grid-footer {
     display: grid;
+    align-items: end;
     grid-template-columns: 1fr 1fr;
-}
-
-.footer {
-    background-color: #EFEFEF; 
-}
-
-.footer p, h3{
-    color: #151515;
-    margin: 5px;
-    font-family: 'Roboto', sans-serif;
+  }
   
-}
-
- /* SoMe icons  */
-.icons img {
+  .footer {
+    background-color: #EFEFEF; 
+  }
+  
+  .footer h3{
+    color: #151515;
+    padding: 20px 5% 0 5%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  .footer p {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 5%;
+  margin: 0;
+  }
+  
+   /* SoMe icons  */
+  .icons img {
     width: 40px;
-}
-
-.icons {
+  }
+  
+  .icons {
     text-align: right;
-    margin-top: -40px;
-}
+    margin-top: -60px;
+    margin-right: 5%;
+  }
