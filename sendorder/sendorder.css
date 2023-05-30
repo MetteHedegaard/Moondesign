@@ -59,6 +59,17 @@
     font-size: 35px;
   }
 
+  .fontsize h2 {
+    font-size: 2rem;
+    font-family: 'bebas Neue';
+    width: 90%;
+  }
+
+  .fontsize p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
+
   /* Formular */
   .info-form {
     background-color: #EFEFEF;
