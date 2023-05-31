@@ -7,15 +7,3 @@
     x.style.display = "block";
   }
 }
-
-  /* collection page change numbers Toggle between showing and hiding
-  credit https://www.w3schools.com/howto/howto_js_toggle_class.asp
-  function changepagenumbers() {
- var element = document.getElementsByClassName("grid1");
-    element.classList.toggle("hide");
-
-    var element = document.getElementsByClassName("grid2");
-    element.classList.toggle("hide");
-  }
-  
-  VI VIRKER SELVOM VI IKKE BRUGER DETTE STYKKE JS*/
