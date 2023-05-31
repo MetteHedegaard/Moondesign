@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+}
+
 /* logo */
 .logo {
     background-color: #FDFDFD;
@@ -85,14 +89,22 @@ height: 60px;
 
 .text h4  {
     font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
 }
 
 .text h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    padding-left: 5%;
 }
 .text p {
     font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+}
+
+.linkcontainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
   /*gridfabric*/
@@ -100,7 +112,7 @@ height: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
-    margin-bottom: 5%;
+    padding: 5%;
 }
 .gridfabric div {
   padding: 0.5rem;

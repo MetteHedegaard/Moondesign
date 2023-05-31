@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+}
+
 /* logo */
 .logo {
     background-color: #FDFDFD;
@@ -63,16 +67,18 @@
     font-size: 2rem;
     font-family: 'bebas Neue';
     width: 90%;
+    padding: 5%;
   }
 
   .fontsize p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    padding: 5%;
   }
 
   /* Formular */
   .info-form {
-    background-color: #EFEFEF;
+  padding: 1%;
   }
 
 .informations h1 {
@@ -112,8 +118,7 @@
 }
 
 .picture img {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 10%;
     width: 80%;
 }
 

@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  margin: 0;
+}
 
 /* logo */
 .logo {
@@ -74,6 +77,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+    padding: 0 5% 0 5%;
 }
 
 .grid1 img {
@@ -103,6 +107,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+    padding: 0 5% 0 5%;
 }
 
 .grid2 img {
