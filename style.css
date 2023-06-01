@@ -68,6 +68,7 @@ body {
  /*coverbillede*/
  .coverbillede img {
     width: 100%;
+    filter: grayscale(100);
  }
 
  /*  section 2 med collection*/

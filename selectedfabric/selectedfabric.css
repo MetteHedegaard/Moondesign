@@ -96,6 +96,7 @@ height: 60px;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     padding-left: 5%;
+    margin-bottom: -30px;
 }
 .text p {
     font-family: 'Roboto', sans-serif;
@@ -105,6 +106,10 @@ height: 60px;
 .linkcontainer {
   display: flex;
   justify-content: flex-end;
+}
+
+.linkcontainer p {
+  width: 120px;
 }
 
   /*gridfabric*/
